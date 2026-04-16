@@ -43,6 +43,13 @@ if cereza in frutas:
 else:
     print("no tenemos cereza para la cena ૮(˶ㅠ︿ㅠ)ა")
 ```
+## Ejersicio:
+ - cree un programa en Python que utilice un diccionario para guardar los nombres de sus amigos y sus telefonos, en este caso, el diccionario representa una agenda telefónica, el programa pedirá nombres y telefonos y los irá guardado en el diccioonario (los nombres en mayuscula). además, el programa debe permitir consultar u eliminar un teléfono, incluya un menú de opciones
+
+
+
+
+
 
 ###### .
 ![:3](screen.jpg)
