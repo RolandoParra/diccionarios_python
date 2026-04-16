@@ -1,4 +1,4 @@
-# DICCIONARIOS EN PYTHON
+![titulo](titulo.gif)
 
  - Los diccionarios son dats estructurados, es decir, hacer referencia a una colección de datos
  - Son una colección desordenada de pares de datos de la forma **clave:valor**, conocidos como **Elementos** ó **Items**
