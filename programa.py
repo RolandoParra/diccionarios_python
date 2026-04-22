@@ -1,4 +1,5 @@
 import time
+import os
 
 bienvenido = r"""
   _______   ______  ________  __    __  __     __  ________  __    __  ______  _______    ______  
@@ -12,16 +13,19 @@ bienvenido = r"""
   \$$$$$$$  \$$$$$$ \$$$$$$$$ \$$   \$$     \$     \$$$$$$$$ \$$   \$$ \$$$$$$ \$$$$$$$   \$$$$$$ 
 """
 
-print(bienvenido)
+
 time.sleep(2)
-print()
 print("...")
-time.sleep(0.3)
-print()
-print()
+time.sleep(2)
+print("...")
+time.sleep(2)
+print("...")
+time.sleep(2) 
 agenda = {}
 
 def menu():
+    print(bienvenido)
+    os.system('clear')
     time.sleep(0.3)
     print("1. Agregar contacto")
     time.sleep(0.3)
@@ -50,6 +54,7 @@ def menu():
         menu()
 
 def agregar_contacto():
+    os.system('clear')
     while True:
         print("desea agregar un contacto? (s/n)")
         opcion = input("> ")
@@ -65,6 +70,7 @@ def agregar_contacto():
             print("Opción no válida. Por favor, ingrese 's' o 'n'.")
 
 def buscar_contacto():
+    os.system('clear')
     nombre = input("Ingrese el nombre del contacto que desea buscar: ")
     if nombre in agenda:
         print(f"El número de teléfono de '{nombre}' es: {agenda[nombre]}")
@@ -74,6 +80,7 @@ def buscar_contacto():
     menu()
 
 def eliminar_contacto():
+    os.system('clear')
     nombre = input("Ingrese el nombre del contacto que desea eliminar: ")
     if nombre in agenda:
         del agenda[nombre]
@@ -84,6 +91,7 @@ def eliminar_contacto():
     menu()
 
 def mostrar_contactos():
+    os.system('clear')
     if not agenda:
         print("No hay contactos en la agenda.")
     else:
