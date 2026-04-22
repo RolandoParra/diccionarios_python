@@ -24,8 +24,8 @@ time.sleep(2)
 agenda = {}
 
 def menu():
-    print(bienvenido)
     os.system('clear')
+    print(bienvenido)
     time.sleep(0.3)
     print("1. Agregar contacto")
     time.sleep(0.3)
